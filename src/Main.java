@@ -9,13 +9,13 @@ public class Main {
         dumNovaku.pocetPoschodi = 4;
         dumNovaku.rozloha = 457f;
         dumNovaku.material = "mramor";
+        dumNovaku.vypocetCenyDomu();
+
 
         RodinnyDum dumZajacov = new RodinnyDum();
-        dumZajacov.pocetPoschodi = 2;
-        dumZajacov.rozloha = 562f;
-
-        String nejakyText ="neco";
-
+        dumZajacov.pocetPoschodi = 3;
+        dumZajacov.rozloha = 6468f;
+        dumZajacov.vypocetCenyDomu();
 
     }
 }
